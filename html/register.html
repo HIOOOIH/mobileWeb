@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<meta name="full-screen" content="yes">
+	<link rel="stylesheet" href="../css/style.css"/>
+	<title>会员注册</title>
+</head>
+<body>
+	<header class="regtit">
+		会员注册
+		<a href="login.html" class='reg_return' type="login"></a>
+		<a href="../index.html" class='reg_home'></a>
+	</header>
+	<section class="loginbox">
+		<form>
+			<div>
+				<input type="text" id="phone" name="phone" placeholder="请输入手机号码">
+			</div>
+			<div id="onoffbox">
+				<input type="password" id="password" placeholder="输入密码">
+				<p id="pwd_on_off">
+					<span>white dot</span>
+				</p>
+			</div>
+			<div>
+				<input type="text" id="code" placeholder="获取验证码">
+				<p class="testcode" id="getcode">获取验证码</p>
+			</div>
+			<div class="read" id="read">
+				<span></span><input type="hidden" value="0" id="isread">
+				<label>我已阅读并同意《会员条款》</label>
+			</div>
+			<button id="reg_btn">注册</button>
+		</form>
+	</section>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/event.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/fx.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/register.js"></script>
+	<script>
+		register.userRegister();
+	</script>
+</body>
+</html>

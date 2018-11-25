@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<meta name="full-screen" content="yes">
+	<link rel="stylesheet" href="../gmu/css/calendars.css" type="text/css"/>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container hcon">
+		<div class="hmain">
+			<div class="citytit">
+				<h2>
+					<a href="../index.html"><img src="../img/btn_top_nav_back.png" alt=""></a>
+					<span id="countRoom"></span>间酒店
+				</h2>
+			</div>
+			<div class="greybg">
+				<span>入住</span>
+				<em id="in_ch"></em>
+				<input type="hidden" id="date_in">
+				<i>离店</i>
+				<em id="out_ch"></em>
+				<input type="hidden" id="date_out">
+				<!-- <a href="#" id="change" type="list">修改</a> -->
+			</div>
+			<div id="con" class="flex">
+				<div class="iscroller">
+					<div class="hotelReg" id="hotelReg">
+						<div class="hotel1">
+							<dl>
+								<dt><img src="../img/01.jpg" alt=""></dt>
+								<dd>
+									<h5>北京天安瑞安酒店</h5>
+									<h2>
+										<span>5星</span>
+										<em>礼</em>
+										<em class="reddot">促</em>
+										<em class="bluedot">返</em>
+									</h2>
+									<h3>
+										<span>经济型</span>
+										<img src="../img/icon-wifi.png" alt="">
+										<img src="../img/icon-park.png" alt="">
+									</h3>
+									<h4>北京市朝阳区东四十条</h4>
+									<p><span>¥230</span><em>起</em><em>233km</em></p>
+								</dd>
+							</dl>
+						</div>
+						<div class="hotel2">
+							<dl>
+								<dt><img src="../img/02.jpg" alt=""></dt>
+								<dd>
+									<h5>北京汉庭酒店上地店</h5>
+									<h2>
+										<span>4星</span>
+										<em>礼</em>
+										<em class="reddot">促</em>
+										<em class="bluedot">返</em>
+									</h2>
+									<h3>
+										<span>经济型</span>
+										<img src="../img/icon-wifi.png" alt="">
+										<img src="../img/icon-park.png" alt="">
+									</h3>
+									<h4>北京市海淀区上地</h4>
+									<p>
+										<span>¥298</span>
+										<em>起</em>
+										<em>233km</em>
+									</p>
+								</dd>
+							</dl>
+						</div>
+						<div class="hotel11">
+							<dl>
+								<dt><img src="../img/11.jpg" alt=""></dt>
+								<dd>
+									<h5>北京桔子酒店苏州街店</h5>
+									<h2>
+										<span>4星</span>
+										<em>礼</em>
+										<em class="reddot">促</em>
+										<em class="bluedot">返</em>
+									</h2>
+									<h3>
+										<span>经济型</span>
+										<img src="../img/icon-wifi.png" alt="">
+										<img src="../img/icon-park.png" alt="">
+									</h3>
+									<h4>北京市苏州街10号</h4>
+									<p>
+										<span>¥458</span>
+										<em>起</em>
+										<em>233km</em>
+									</p>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<section class="item_layer" id="item_layer">
+		<div id="sort"></div>	
+		<div id="price"></div>
+		<div id="brand"></div>
+		<div id="star"></div>
+		<input type="hidden" name="order" id="order">
+		<input type="hidden" name="min" id="imin">
+		<input type="hidden" name="max" id="imax">
+		<input type="hidden" name="brand" id="ibrand">
+		<input type="hidden" name="star" id="istar">
+	</section>
+
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/event.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/fx.js"></script>
+	<script src="../gmu/js/gmu.js"></script>
+	<script src="../gmu/js/event.js"></script>
+	<script src="../gmu/js/parseTpl.js"></script>
+	<script src="../gmu/js/touch.js"></script>
+	<script src="../gmu/js/widget.js"></script>
+	<script src="../gmu/js/highlight.js"></script>
+	<script src="../gmu/js/calendar.js"></script>
+	<script src="../gmu/js/$picker.js"></script>
+	<script src="../gmu/js/matchMedia.js"></script>
+	<script src="../js/iscroll4.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/hotelBrand.js"></script>
+	<script src="../js/hotel.js"></script>
+	
+</body>
+</html>

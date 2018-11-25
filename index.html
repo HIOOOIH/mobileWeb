@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="gmu/css/calendars.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<title>随我行</title>
+</head>
+<body>
+	<div class="container">
+		<div class="fshow">
+			<div class="imgs" id="imgRow">
+				<img src="img/main-ad.jpg">
+			</div>
+			<div class="mainIndex">
+				<div>
+					<p>
+						<img src="img/icon-yuan.png" alt="">
+						<label>入住地</label>
+						<span id="city_name"></span>
+						<input type="hidden" id="city_id">
+						<i><a id="cityIndex" href="html/city.html"></a></i>
+					</p>
+				</div>
+				<div class="indexList">
+					<p>
+						<img src="img/icon-yuan.png" alt="">
+						<label>入住日</label>
+						<input type="text" id="date_in" readonly="readonly">
+						<i id="calBtn"></i>
+					</p>
+					<p>
+						<img src="img/icon-yuan.png" alt="">
+						<label>住几晚</label>
+						<input type="text" id="date_out" readonly="readonly">
+						<i></i>
+					</p>
+					<p>
+						<img src="img/icon-yuan.png" alt="">
+						<label>酒店名</label>
+						<input type="text" id="hotelName" placeholder="酒店名称（选填）">
+					</p>
+				</div>
+				<div class="bluetxt">
+					<a id="search">搜索酒店</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/zepto.min.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/fx.js"></script>
+	<script src="gmu/js/gmu.js"></script>
+	<script src="gmu/js/event.js"></script>
+	<script src="gmu/js/parseTpl.js"></script>
+	<script src="gmu/js/touch.js"></script>
+	<script src="gmu/js/widget.js"></script>
+	<script src="gmu/js/highlight.js"></script>
+	<script src="gmu/js/calendar.js"></script>
+	<script src="gmu/js/$picker.js"></script>
+	<script src="gmu/js/matchMedia.js"></script>
+<!--<script src="js/slider.js"></script>-->
+	<script src="js/common.js"></script>
+	<script src="js/indexjs.js"></script>
+	
+	<script>
+		index.homePage();
+	</script>
+</body>
+</html>

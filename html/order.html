@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<meta name="full-screen" content="yes">
+	<link rel="stylesheet" href="../css/style.css"/>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container d">
+		<div class="citytit">
+				<h2>
+					<a href="" id="return"><img src="../img/btn_top_nav_back.png" alt=""></a>
+					订单填写
+				</h2>
+		</div>
+		<div id="con">
+			<div class="iscroller">
+				<!--最顶部的酒店信息-->
+				<div class="dls" id="dls">
+					<dl>
+						<dt>
+							<img src="../img/01.jpg" alt="">
+						</dt>
+						<dd>
+							<h1>汉庭酒店</h1>
+							<h3>标准大床房</h3>
+							<h4><i>¥320</i><em>担保</em></h4>
+						</dd>
+					</dl>
+				</div>
+				<!--入住等-->
+				<div class="infocheckflex">
+					<p>
+						<span>入住</span>
+						<em id="in_ch">11月7日</em>
+						<input type="hidden" id="data_in">
+					</p>
+					<p>
+						<span>离店</span>
+						<em id="out_ch">11月8日</em>
+						<input type="hidden" id="data_in">
+					</p>
+				</div>
+				<!-- <div class="htit">
+					房间信息
+				</div> -->
+				<!--加减等-->
+				<!-- <form class="withbtn">
+					<ul>
+						<li>
+							<label>房间数量</label>
+							<div>
+								<span id="minus" class="on">-</span>
+								<input type="text" value="1" id="count">
+								<span id="add">+</span>
+							</div>
+							
+							<img src="../img/right_arrow.png" >
+						</li>
+						<li>
+							<label>到店时间</label>
+							<em>19:00前</em>
+							<img src="../img/right_arrow.png" >
+						</li>
+						<li>
+							<label>房间价格</label>
+							<span id="rprice"></span>
+						</li>
+					</ul>
+				</form> -->
+				<!--文本框有关闭按钮的效果-->
+				<div id="closeinput">
+					<div class="htit">
+						入住人信息
+					</div>
+					<form id="inpeo">
+						<ul id="peo1">
+							<li>
+								<label>姓名</label>
+								<input type="text" placeholder="每间只需填写一个姓名">
+								<b>×</b>
+							</li>
+							<li>
+								<label>证件</label>
+								<input type="text" placeholder="入住人身份证号/护照号">
+								<b>×</b>
+							</li>
+						</ul>
+					</form>
+					<div class="htit">
+						联系人信息
+					</div>
+					<form>
+						<ul>
+							<li>
+								<label>姓名</label>
+								<input type="text" placeholder="联系人姓名" id="name">
+								<b>×</b>
+							</li>
+							<li>
+								<label>手机</label>
+								<input type="text" placeholder="用于接收通知短信" id="phone">
+								<b>×</b>
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="lottxt">
+					<p>温馨提示：</p>
+					温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：温馨提示：
+				</div>
+				<div class="twobluebtn" id="twobtn">
+					<button class="dkbluebtn">担保交易：¥90</button>
+					<button class="bluebtn" id="booknow">立即预订</button>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/event.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/fx.js"></script>
+	<script src="../js/iscroll4.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/order.js"></script>
+</body>
+</html>

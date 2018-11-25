@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<meta name="full-screen" content="yes">
+	<link rel="stylesheet" href="../css/style.css"/>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container citycon">
+		<div class="citytit">
+			<h2>
+				<a href="" id="return"><img src="../img/btn_top_nav_back.png" alt=""></a>
+				选择城市
+			</h2>
+		</div>
+		<div id="con">
+			<div class="iscroller">
+				<div class="curCity" id="curCity">
+					<h1>当前</h1>
+					<ul>
+						<li>北京市香山路30号</li>
+						<li class="lightblue">
+							<span id="cur_city">北京</span>
+							<em class="on"></em>
+						</li>
+					</ul>
+				</div>
+				<div class="hotCity" id="hotCity">
+					<h1>热门</h1>
+					<ul class="hotUl" id="hotUl">
+						<li>
+							<a href="../index.html?city_id=28&amp;city_name=%E5%8C%97%E4%BA%AC">北京</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=29&amp;city_name=%E5%A4%A9%E6%B4%A5">天津</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=64&amp;city_name=%E6%B2%88%E9%98%B3">沈阳</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=65&amp;city_name=%E5%A4%A7%E8%BF%9E">大连</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=100&amp;city_name=%E4%B8%8A%E6%B5%B7">上海</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=101&amp;city_name=%E5%8D%97%E4%BA%AC">南京</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=114&amp;city_name=%E6%9D%AD%E5%B7%9E">杭州</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=143&amp;city_name=%E5%8E%A6%E9%97%A8">厦门</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=227&amp;city_name=%E5%B9%BF%E5%B7%9E">广州</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=229&amp;city_name=%E6%B7%B1%E5%9C%B3">深圳</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=280&amp;city_name=%E9%87%8D%E5%BA%86">重庆</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=311&amp;city_name=%E6%98%86%E6%98%8E">昆明</a>
+						</li>
+						<li>
+							<a href="../index.html?city_id=334&amp;city_name=%E8%A5%BF%E5%AE%89">西安</a>
+						</li>
+					</ul>
+				</div>
+				<div class="more" id="more">
+					<h1>更多</h1>
+					<ul id="az">
+						<!--<li><a href="#">a</a></li>-->
+					</ul>
+				</div>
+				<div class="city" id="city">
+					<!-- <div id="A">
+						<h1 class="name">A</h1>
+						<ul>
+							<li><a href="#">阿拉善盟</a></li>
+							<li>阿拉善盟</li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/iscroll4.js"></script>
+	<script src="../js/cityJson.js"></script>
+	<script src="../js/city.js"></script>
+	<script>
+		city.renderDom()
+	</script>
+</body>
+</html>
